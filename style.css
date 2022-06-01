@@ -1,0 +1,707 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@200;300;400;500;600;700;800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0 auto;
+    padding: 0;
+    font-family: 'Oxanium';
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+}
+p{
+    margin: 0;
+}
+
+
+/************************************************************************************
+start header and nav section css
+*************************************************************************************/
+
+header {
+    margin: 0 280px 0 146px;
+}
+
+.img-logo {
+    width: 73px;
+    height: 50px;
+}
+
+.manu-icon {
+    background-color: rgb(0, 0, 0);
+}
+
+.btn-custom {
+    border: double 4px transparent;
+    border-radius: 8px;
+    background-image: linear-gradient(rgb(0, 0, 0), rgb(0, 0, 0)), conic-gradient(from 180deg at 48.5% 50%, #FCC255 -46.16deg, #4B2A16 130.63deg, #FAB95E 133.38deg, #B47428 204.46deg, #533018 311.43deg, #FCC255 313.84deg, #4B2A16 490.63deg);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    transition: 0.4s ease-in-out;
+
+}
+
+.btn-custom:hover {
+    background-image: linear-gradient(rgb(0, 0, 0), rgb(0, 0, 0)), conic-gradient(from 180deg at 48.5% 50%, #B47428 -22.97deg, #533018 92.26deg, #FCC255 100.77deg, #FAB95E 211.86deg, #4B2A16 219.11deg, #B47428 337.03deg, #533018 452.26deg);
+}
+
+.btn-custom p {
+    background: conic-gradient(from 85deg at 48.5% 50%, #FCC255 -46.16deg, #4B2A16 356deg, #FAB95E 133.38deg, #B47428 254deg, #533018 311.43deg, #FCC255 204deg, #4B2A16 490.63deg);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    margin-bottom: 0rem;
+    font-weight: 600;
+    font-size: 16px;
+    padding: 13px 20px;
+}
+
+.ether-btn {
+    color: #fff;
+    border: none;
+    background: conic-gradient(from 180deg at 48.5% 50%, #FCC255 -46.16deg, #4B2A16 130.63deg, #FAB95E 133.38deg, #B47428 204.46deg, #533018 311.43deg, #FCC255 313.84deg, #4B2A16 490.63deg);
+    border-radius: 2px;
+    padding: 13px 20px;
+    margin-right: 24px;
+    font-weight: 500;
+    font-size: 16px;
+    border: double 4px transparent;
+    border-radius: 8px;
+    background-image: conic-gradient(from 180deg at 48.5% 50%, #FCC255 -46.16deg, #4B2A16 130.63deg, #FAB95E 133.38deg, #B47428 204.46deg, #533018 311.43deg, #FCC255 313.84deg, #4B2A16 490.63deg), conic-gradient(from 180deg at 48.5% 50%, #FCC255 -46.16deg, #4B2A16 130.63deg, #FAB95E 133.38deg, #B47428 204.46deg, #533018 311.43deg, #FCC255 313.84deg, #4B2A16 490.63deg);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    transition: 0.4s ease-in-out;
+}
+
+.ether-btn:hover {
+    transition: 5s;
+    background-image: conic-gradient(from 180deg at 48.5% 50%, #533018 -150deg, #4B2A16 16.88deg, #D59B4E 35.62deg, #FAB95E 146.25deg, #B47428 161.25deg, #FCC255 189.38deg, #533018 210deg, #4B2A16 376.88deg), conic-gradient(from 180deg at 48.5% 50%, #533018 -150deg, #4B2A16 16.88deg, #D59B4E 35.62deg, #FAB95E 146.25deg, #B47428 161.25deg, #FCC255 189.38deg, #533018 210deg, #4B2A16 376.88deg);
+}
+
+.social {
+    margin-top: 14px;
+}
+
+.navbar-nav {
+    margin-left: 70px;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+.nav-link {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #fff;
+    transition: 0.4s ease-in-out;
+}
+
+.nav-link:hover {
+    font-weight: 700;
+    background: linear-gradient(90deg, #00F260 0%, #0575E6 100%, #0575E6 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+.nav-link:focus {
+    font-weight: 700 !important;
+    background: linear-gradient(90deg, #00F260 0%, #0575E6 100%, #0575E6 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+.navbar-nav .nav-link.active {
+    font-weight: 700 !important;
+    background: linear-gradient(90deg, #00F260 0%, #0575E6 100%, #0575E6 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+@media (min-width:1024px) and (max-width:1320px) {
+    header {
+        margin: 0px;
+    }
+
+    .navbar-nav {
+        margin-left: 15px;
+    }
+
+    .nav-link {
+        font-size: 12px;
+        line-height: 0px;
+    }
+
+    .btn-custom p {
+        padding: 5px 10px;
+    }
+
+    .ether-btn {
+        padding: 5px;
+        border-radius: 2px;
+    }
+}
+
+@media (min-width:1321px) and (max-width:1440px) {
+    header {
+        margin: 0 220px 0 106px;
+    }
+
+    .nav-link {
+        font-size: 14px;
+    }
+
+    .navbar-nav {
+        margin-left: 25px;
+    }
+
+    .btn-custom p {
+        padding: 5px 8px;
+    }
+
+    .ether-btn {
+        font-size: 16px;
+        padding: 7px 15px;
+    }
+}
+
+@media (min-width:280px) and (max-width:991px) {
+    header {
+        margin: 0px;
+    }
+
+    .btn-custom {
+        padding: 5px;
+
+    }
+
+    .btn-custom p {
+        font-size: 12px;
+    }
+
+    .ether-btn {
+        padding: 5px;
+        margin-right: 10px;
+    }
+
+    .btn-custom {
+        margin-top: 10px;
+    }
+}
+
+
+/************************************************************************************
+end header and nav section css
+*************************************************************************************/
+
+
+
+
+
+/************************************************************************************
+start main section css
+*************************************************************************************/
+
+main {
+    margin-top: 140px;
+    background-image: url('./images/digital-animals-di.gif');
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    padding-bottom: 228px;
+
+}
+
+.hero-card {
+    /* background-image: ; */
+    
+}
+
+.hero-card {
+    width: 461px;
+    height: 624px;
+    margin: 0 auto;
+    border: double 4px transparent;
+    border-radius: 20px;
+    background-image: linear-gradient(rgb(0, 0, 0), rgb(0, 0, 0)), linear-gradient(225deg, rgba(75, 42, 22, 0) 0%, #EAB872 36.22%, #FFEAC2 47.32%, #A56710 64.82%, rgba(83, 48, 24, 0) 100%);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    backdrop-filter: blur(50px);
+}
+
+.hero-card-container {
+    padding: 24px;
+}
+
+.swap-btn {
+    border: double 4px transparent;
+    border-radius: 8px;
+    background-image: linear-gradient(rgb(0, 0, 0), rgb(0, 0, 0)), linear-gradient(225deg, rgba(75, 42, 22, 0) 0%, #EAB872 36.22%, #e49709 47.32%, #A56710 64.82%, rgba(83, 48, 24, 0) 100%);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    transition: 0.4s ease-in-out;
+
+}
+
+.swap-btn:hover {
+    background-image: linear-gradient(rgb(0, 0, 0), rgb(0, 0, 0)), conic-gradient(from 180deg at 48.5% 50%, #B47428 -22.97deg, #533018 92.26deg, #FCC255 100.77deg, #FAB95E 211.86deg, #4B2A16 219.11deg, #B47428 337.03deg, #533018 452.26deg);
+}
+
+.swap-btn p {
+    background: conic-gradient(from 85deg at 48.5% 50%, #FCC255 -46.16deg, #4B2A16 356deg, #FAB95E 133.38deg, #B47428 254deg, #533018 311.43deg, #FCC255 204deg, #4B2A16 490.63deg);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    margin-bottom: 0rem;
+    font-weight: 600;
+    font-size: 16px;
+    padding: 13px 20px;
+}
+
+.swap-btn:hover {
+    background-image: linear-gradient(rgb(0, 0, 0), rgb(0, 0, 0)), conic-gradient(from 180deg at 48.5% 50%, #B47428 -22.97deg, #533018 92.26deg, #FCC255 100.77deg, #FAB95E 211.86deg, #4B2A16 219.11deg, #B47428 337.03deg, #533018 452.26deg);
+}
+
+.card-box {
+    border: double 1px transparent;
+    border-radius: 8px;
+    background-image: linear-gradient(rgb(0, 0, 0), rgb(0, 0, 0)), linear-gradient(225deg, rgba(75, 42, 22, 0) 0%, #EAB872 36.22%, #FFEAC2 47.32%, #A56710 64.82%, rgba(83, 48, 24, 0) 100%);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    transition: 0.4s ease-in-out;
+    padding: 1px;
+    width: 40px; 
+    height: 40px;
+}
+
+.card-box:hover {
+    background-image: linear-gradient(rgb(0, 0, 0), rgb(0, 0, 0)), conic-gradient(from 180deg at 48.5% 50%, #B47428 -22.97deg, #533018 92.26deg, #FCC255 100.77deg, #FAB95E 211.86deg, #4B2A16 219.11deg, #B47428 337.03deg, #533018 452.26deg);
+}
+
+.img-box {
+    width: 20.91px; 
+    height: 21px;
+    margin: 8px;
+}
+
+
+.eth {
+    border: double 1px transparent;
+    border-radius: 8px;
+    background-image: linear-gradient(rgb(0, 0, 0), rgb(0, 0, 0)), linear-gradient(225deg, rgba(75, 42, 22, 0) 0%, #EAB872 36.22%, #FFEAC2 47.32%, #A56710 64.82%, rgba(83, 48, 24, 0) 100%);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    transition: 0.4s ease-in-out;
+    padding: 1px;
+    margin-top: 26px;
+}
+
+.dth {
+    border: double 1px transparent;
+    border-radius: 8px;
+    background-image: linear-gradient(rgb(0, 0, 0), rgb(0, 0, 0)), linear-gradient(225deg, rgba(75, 42, 22, 0) 0%, #EAB872 36.22%, #FFEAC2 47.32%, #A56710 64.82%, rgba(83, 48, 24, 0) 100%);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    transition: 0.4s ease-in-out;
+    padding: 1px;
+}
+
+.eth-p {
+
+    padding: 8px 20px;
+}
+
+.input-after {
+    position: relative;
+}
+
+.input-after::after {
+    position: absolute;
+    content: '';
+    height: 56px;
+    width: 1px;
+    background-color: #fff;
+    top: 5px;
+    right: -75px;
+}
+
+.ether-btn-2 {
+    color: #fff;
+    background: none;
+    border: none;
+}
+
+.ethm-input {
+    background: none;
+    border: none;
+    height: 45px;
+    color: #FFFFFF;
+    opacity: 0.2;
+}
+
+.ethm-input::placeholder {
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 28px;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+
+    opacity: 0.2;
+}
+
+.ethm-input:focus {
+    background: none;
+    outline: none;
+}
+
+.ethm-text {
+    margin: 0;
+    color: #4C89EC;
+}
+
+.btn-custom-2 {
+    border: double 4px transparent;
+    border-radius: 8px;
+    background-image: linear-gradient(rgb(0, 0, 0), rgb(0, 0, 0)), conic-gradient(from 180deg at 48.5% 50%, #FCC255 -46.16deg, #4B2A16 130.63deg, #FAB95E 133.38deg, #B47428 204.46deg, #533018 311.43deg, #FCC255 313.84deg, #4B2A16 490.63deg);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    transition: 0.4s ease-in-out;
+
+}
+
+.btn-custom-2 p {
+    background: conic-gradient(from 85deg at 48.5% 50%, #FCC255 -46.16deg, #4B2A16 356deg, #FAB95E 133.38deg, #B47428 254deg, #533018 311.43deg, #FCC255 204deg, #4B2A16 490.63deg);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    margin-bottom: 0rem;
+    font-weight: 600;
+    font-size: 16px;
+    padding: 10px 45px;
+}
+
+.swap-rate {
+    margin-top: 25px;
+}
+
+.card-ammount-text {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 500;
+    font-size: 14px;
+    color: rgba(239, 255, 245, 0.8);
+    line-height: 25px;
+}
+
+p {
+    margin-bottom: 0rem !important;
+}
+
+.text-high-color {
+    color: #4C89EC;
+    font-size: 13px;
+    margin-right: 4px;
+}
+
+.sp-highlight {
+    background: linear-gradient(90deg, #731A86 14.71%, #482387 100%);
+    border-radius: 2px;
+    font-size: 12px;
+    padding: 4px 6px;
+    margin: 0;
+}
+
+.sec-nav {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sec-nav li {
+    list-style-type: none;
+}
+
+.sec-nav li a {
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+
+    text-align: center;
+
+    /* angular */
+
+    background: conic-gradient(from 180deg at 48.5% 50%, #FCC255 -46.16deg, #4B2A16 130.63deg, #FAB95E 133.38deg, #B47428 204.46deg, #533018 311.43deg, #FCC255 313.84deg, #4B2A16 490.63deg);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    transition: 0.3s ease-in-out;
+
+}
+
+.sec-nav li a:hover {
+    font-weight: 700;
+    color: #FFFFFF;
+    background: conic-gradient(from 180deg at 48.5% 50%, #FCC255 -46.16deg, #4B2A16 130.63deg, #FAB95E 133.38deg, #B47428 204.46deg, #533018 311.43deg, #FCC255 313.84deg, #4B2A16 490.63deg);
+    text-fill-color: #fff;
+    -webkit-text-fill-color: white;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+.card-footer-text-1 {
+    text-align: center;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    color: #5B7084;
+}
+
+.card-footer-text-2 {
+    text-align: center;
+    font-weight: 700;
+    font-size: 14px;
+    background: conic-gradient(from 180deg at 48.5% 50%, #FCC255 -46.16deg, #4B2A16 130.63deg, #FAB95E 133.38deg, #B47428 204.46deg, #533018 311.43deg, #FCC255 313.84deg, #4B2A16 490.63deg);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+.card-footer {
+    margin-top: 40px;
+}
+
+/************************************************************************************
+end main section css
+*************************/
+
+
+
+
+/************************************************************************************
+start footer section css
+*************************/
+
+
+
+footer{
+    width: 100%;
+    height: 100%;
+    background-image: url(./images/background/Colors-footer.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom center;
+}
+
+.title h1{
+    margin-top: 365px;
+    text-align: center;
+    font-weight: 700;
+        /* angular */
+    font-size: 4.3rem ;
+
+    background: conic-gradient(from 125deg at 48.5% 50%, #FCC255 -46.16deg, #4B2A16 130.63deg, #FAB95E 133.38deg, #B47428 204.46deg, #533018 311.43deg, #FCC255 96deg, #4B2A16 490.63deg);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    text-shadow: 0px 0px 4px rgba(227, 136, 0, 0.6);
+}
+
+.subcrib-box{
+    width: 1040px;
+    margin: 0 auto;
+    margin-top: 48px;
+}
+
+.subcrib-box .sp-border{
+        border: double 1px transparent;
+            border-radius: 8px;
+            background-image: linear-gradient(rgb(0, 0, 0), rgb(0, 0, 0)), linear-gradient(225deg, rgba(0, 0, 0, 0) 0%, #EAB872 36.22%, #FFEAC2 47.32%, #A56710 64.82%, rgba(0, 0, 0, 0) 100%);
+            background-origin: border-box;
+            background-clip: content-box, border-box;
+            transition: 0.4s ease-in-out;
+            padding: 0px;
+            width: 790px;
+            height: 70px;
+            color: #fff;     
+}
+
+.subcrib-box .sp-border input{
+    color: #fff;
+    width: 790px;
+    height: 70px;
+    background: none;
+    padding: 23px 32px;
+}
+
+.subcrib-box input::placeholder{
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #262A2D;
+}
+.subcrib-box button{
+    font-weight: 700;
+        font-size: 20px;
+        line-height: 25px;
+        text-align: center;
+        color: #FFFFFF;
+        padding: 23px 10px;
+        border: none;
+        background: conic-gradient(from 180deg at 48.5% 50%, #FCC255 -46.16deg, #4B2A16 130.63deg, #FAB95E 133.38deg, #B47428 204.46deg, #533018 311.43deg, #FCC255 313.84deg, #4B2A16 490.63deg);
+        border-radius: 8px;
+        margin-left: 50px;
+}
+.footer-text{
+    text-align: center;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #E0E0E0;
+    margin-top: 32px;
+}
+.container-footer{
+    width: 280px;
+    margin: 0 auto;
+    margin-top: 120px;
+}
+
+.copyright{
+    font-weight: 500;
+        font-size: 16px;
+        line-height: 20px;
+        /* identical to box height */
+    
+        text-align: center;
+    
+        /* angular */
+    
+        background: conic-gradient(from 253deg at 48.5% 50%, #FCC255 -46.16deg, #4B2A16 130.63deg, #FAB95E 50deg, #B47428 204.46deg, #533018 311.43deg, #FCC255 313.84deg, #4B2A16 490.63deg);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        text-fill-color: transparent;
+        margin-top: 170px;
+        padding-bottom: 40px;
+}
+
+
+
+
+@media (min-width:1024px) and (max-width:1320px){
+
+}
+
+@media (min-width:1321px) and (max-width:1440px){
+
+}
+@media (min-width:520px) and (max-width:991px){
+    .title h1 {
+            font-size: 1.8rem;
+        }
+        .subcrib-box {
+                width: 90%;
+                margin: 0 auto;
+                margin-top: 48px;
+                display: block !important;
+            }
+
+        .subcrib-box .sp-border {
+            width: 100%;
+        }
+    
+        .subcrib-box .sp-border input {
+            width: 100%;
+            padding: 5px;
+        }
+    
+        .subcrib-box .sp-border input:focus {
+            outline: none;
+        }
+    
+        .subcrib-box button {
+            font-size: 20px;
+            width: 100%;
+            margin: 0;
+            margin-top: 20px;
+        }
+    
+        .footer-text {
+            font-size: 16px;
+        }
+    
+        .container-footer {
+            width: 80%;
+            margin: 0 auto;
+            margin-top: 20px;
+        }
+    
+        .copyright {
+            font-size: 14px;
+        }
+}
+@media (min-width:280px) and (max-width:519px){
+.title h1{
+    font-size: 1.3rem;
+}
+.subcrib-box {
+    width: 98%;
+    margin: 0 auto;
+    display: block !important;
+}
+.subcrib-box .sp-border{
+    width: 100%;
+}
+.subcrib-box .sp-border input{
+    width: 100%;
+    padding: 5px;
+}
+.subcrib-box .sp-border input:focus{
+    outline: none;
+}
+.subcrib-box button{
+    margin-top: 15px;
+    font-size: 16px;
+}
+.footer-text{
+    font-size: 12px;
+}
+.container-footer{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.copyright{
+    font-size: 10px;
+}
+}
+
+/************************************************************************************
+end footer section css
+
+border: 1px solid;
+
+border-image-source: linear-gradient(225deg, rgba(75, 42, 22, 0) 0%, #EAB872 36.22%, #FFEAC2 47.32%, #A56710 64.82%, rgba(83, 48, 24, 0) 100%);
+*************************/
