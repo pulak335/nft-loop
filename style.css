@@ -552,6 +552,10 @@ footer{
     height: 70px;
     background: none;
     padding: 23px 32px;
+    border: none;
+}
+input:focus{
+    outline: none;
 }
 
 .subcrib-box input::placeholder{
