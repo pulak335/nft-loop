@@ -491,8 +491,117 @@ p {
     margin-top: 40px;
 }
 
+
+
+@media (min-width:280px) and (max-width:350px){
+    main{
+        margin-top: 40px;
+        background:none;
+    }
+    .hero-card-container {
+    padding: 15px;
+}
+    .hero-card{
+        width: 100%;
+    }
+        .input-after::after{
+        right: 0px;
+        height: 50px;
+    }
+    .eth-p{
+        padding:10px;
+    }
+    .ether-btn-2 {
+    font-size: 14px;
+}
+    
+    .btn-custom-2{
+        border: double 2px transparent;
+    }
+    .btn-custom-2 p{
+        font-size: 14px;
+    }
+    p {
+    font-size: 10px;
+}
+
+
+.img-box {
+    width: 11.91px;
+    height: 13px;
+    margin: 8px;
+}
+.img-box {
+    width: 9.91px;
+    height: 12px;
+    margin: 8px;
+}
+.card-box{
+    width: 30px;
+    height: 30px;
+}
+
+.swap-btn p{
+    font-size: 12px;
+    padding: 5px 12px;
+}
+.swap-btn{
+    border: double 2px transparent;
+}
+}
+@media (min-width:351px) and (max-width:399px){
+    main{
+        background:none;
+    }
+    .hero-card-container {
+    padding: 12px;
+}
+        .hero-card{
+        width: 100%;
+    }
+    .input-after::after {
+    right: -50px;
+    height: 54px;
+}
+        .eth-p{
+        padding:6px 14px;
+    }
+}
+
+@media (min-width:400px) and (max-width:580px) {
+    main {
+        background: none;
+    }
+    .hero-card{
+        width: 95%;
+    }
+    
+    .input-after::after{
+        right: -25px;
+    }
+}
+@media (min-width:581px) and (max-width:768px){
+        main {
+        background: none;
+    }
+        .hero-card{
+        width: 80%;
+    }
+    .input-after::after{
+        right: -200px;
+    }
+    
+}
+@media (min-width:990px) and (max-width:1024px){
+    main{
+
+        background-size: 350px;
+    }
+}
+
 /************************************************************************************
 end main section css
+
 *************************/
 
 
@@ -612,15 +721,6 @@ input:focus{
 }
 
 
-
-
-@media (min-width:1024px) and (max-width:1320px){
-
-}
-
-@media (min-width:1321px) and (max-width:1440px){
-
-}
 @media (min-width:520px) and (max-width:991px){
     .title h1 {
             font-size: 1.8rem;
@@ -666,9 +766,10 @@ input:focus{
             font-size: 14px;
         }
 }
-@media (min-width:280px) and (max-width:519px){
+@media (min-width:280px) and (max-width:768px){
 .title h1{
     font-size: 1.3rem;
+    margin-top: 0px;
 }
 .subcrib-box {
     width: 98%;
@@ -700,12 +801,55 @@ input:focus{
 .copyright{
     font-size: 10px;
 }
+.subcrib-box button {
+    margin-top: 15px;
+    font-size: 16px;
+    margin-left: 0px;
+    width:100%;
+
+}
+}
+
+@media (min-width:990px) and (max-width:1024px){
+    .subcrib-box{
+        width:100%
+    }
+    .title h1{
+        font-size: 2.3rem;
+    }
+
 }
 
 /************************************************************************************
 end footer section css
+*************************/
 
-border: 1px solid;
 
-border-image-source: linear-gradient(225deg, rgba(75, 42, 22, 0) 0%, #EAB872 36.22%, #FFEAC2 47.32%, #A56710 64.82%, rgba(83, 48, 24, 0) 100%);
+
+
+
+
+
+/************************************************************************************
+start navbar section css
+*************************/
+
+    .navbar-nav {
+    margin-left: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+@media (min-width:280px) and (max-width: 768px) {
+    .nav-form {
+    display: flex!important;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+}
+
+/************************************************************************************
+end navbar section css
 *************************/
